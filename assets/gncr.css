@@ -1,0 +1,145 @@
+#hero {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#graphic {
+    background: url(hero_2.jpg) repeat-x scroll center bottom transparent;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    background: url(logo_white.png) transparent no-repeat;
+    width: 350px;
+    height: 160px;
+    position: absolute;
+    left: 4em;
+    top: 2em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 2em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 80px;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+/*
+   Listen
+   ========================================================================== */
+
+#listen dt {
+    margin-top: 1em;
+}
+
+#listen dd {
+    margin-left: 2em;
+}
+
+#player {
+    width: 200px;
+    height: 200px;
+    background: url(btn_shell.png) top left no-repeat;
+    padding: 75px;
+    margin: 80px auto;
+}
+
+.control {
+    width: 50px;
+    height: 50px;
+    background-image: url(btn_controls.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.control:hover {
+    background-position: -50px 0;
+}
+
+.pause {
+    background-position: 0 -50px;
+}
+
+.control.pause:hover {
+    background-position: -50px -50px;
+}
+
+
+/*
+   Contact
+   ========================================================================== */
+
+#social-block {
+    width: 320px;
+    margin: 80px auto;
+}
+
+.social {
+    height: 87px;
+    width: 83px;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.social:hover {
+    background-position: 0 -87px;
+}
+
+.social-fb {
+    background-image: url(facebook.png);
+}
+
+.social-tw {
+    background-image: url(twitter.png);
+}
+
+.social-ig {
+    background-image: url(instagram.png);
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+/*
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0,0,0,0.7);
+    }
+    
+    #logo {
+        background: none;
+    }
+}
+
+ @media (min-width: 768px) {
+
+ }
+ 
+ @media (min-width: 992px) {
+ }
+ 
+@media (min-width: 1200px) {
+}
+
+/* high resolution images */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+}

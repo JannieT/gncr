@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GNCR 93.6FM</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type='text/css'>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" type='text/css'>
+        <link rel="stylesheet" href="assets/gncr.css" type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body >
+        <div id="hero">
+            <div id="graphic">
+                <div id="logo"></div>
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#listen">listen</a></li>
+                                <li><a href="#about">about</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                        </div> <!-- /.navbar-collapse -->
+                    </div> <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <section id="listen" class="row">
+
+                <div class="col-md-6">
+
+                    <div id="player">
+                        <div class="control"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Programme favourites</h2>
+                    <dl id="schedule">
+                        <dt> Science, Scripture and Salvation 
+                        <dd> Mon - Fri @ 16:30
+                        <dt> Sport Round-up 
+                        <dd> Saturday @ 18:15 
+                        <dt> Good News Club 
+                        <dd> Saturday, Sunday @ 16:00 
+                        <dt> Youth Alive  
+                        <dd> Mon - Fri @ 16:00
+                        <dt> Insight for Living
+                        <dd> Mon - Fri @ 08:30 
+                        <dt> Unshackled
+                        <dd> Mon - Fri @ 19:15,
+                        <dd> Sat @ 08:00
+                        <dd> Sun @19:00
+                        <dt> Adventures in Odyssey
+                        <dd> Daily @ 15:00
+                    </dl>
+                </div>   
+
+            </section>
+
+            <section id="about" class="row">
+
+                <div class="col-md-6">
+                    <h2>Good News Community Radio</h2>
+
+                    <p>
+                        Good News Community Radio, which is based at Shortlands near Verulam on the North coast of Kwazulu Natal, been broadcasting since September 1995. It won a national award for their “Exam Buzz” education programmes.
+                    </p>
+
+                    <p>
+                        Cras tincidunt vestibulum scelerisque. Duis laoreet, lacus at convallis porttitor, ligula erat dignissim risus, at pretium nisl elit sed erat. Mauris at lectus risus. Mauris rhoncus auctor magna et pellentesque. Integer sodales at mauris mattis fringilla. Vivamus quis sem fermentum augue viverra posuere sit amet et leo. Etiam sed elit aliquet, condimentum quam in, dictum nunc. Curabitur sed ipsum vel odio mollis scelerisque ultricies vitae enim. Aenean faucibus faucibus lacus, quis scelerisque diam viverra nec. Nulla luctus dignissim aliquet.
+                    </p>
+
+                    <p>
+                        Donec porta malesuada nisl, vitae scelerisque mi laoreet ac. Quisque accumsan bibendum laoreet. Vivamus venenatis risus vel massa interdum tempor. Aliquam ultricies magna ligula, eu molestie tortor interdum ut. Phasellus luctus fringilla adipiscing. Nullam id tincidunt justo, ut volutpat ante. Sed bibendum eu nunc in dapibus. Nullam iaculis sem id libero eleifend consequat. Vivamus mattis tellus ut diam tempus, in malesuada orci elementum.
+                    </p>
+                </div>   
+
+                <div class="col-md-6">
+                    <p><img src="/assets/welcome.jpg" alt="[ welcome ]"></p>
+                </div>
+
+            </section>
+
+            <section id="contact" class="row">
+
+                <div class="col-md-6">
+                    <div id="social-block">
+                        <a href="#"><div class="social social-fb"></div></a>
+                        <a href="#"><div class="social social-tw"></div></a>
+                        <a href="#"><div class="social social-ig"></div></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Contact Us</h2>
+                    <p class="feedback">&nbsp;</p>
+                    <form action="/server/response.php" method="POST" role="form" data-success="We got that! Thank you.">
+                        <div class="form-group">
+                            <label class="sr-only">Name</label>
+                            <input maxlength="40" name="name" type="text" placeholder="your name" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only">Email</label>
+                            <input maxlength="80" name="email"  type="text" placeholder="your email" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only">Message</label>
+                            <textarea name="message" maxlength="255" placeholder="your gripe or compliment :)" class="form-control"></textarea>
+                        </div> 
+                        <button type="submit" class="btn btn-default">Send</button>
+                    </form>
+                </div>   
+
+            </section>
+
+        </div>
+
+        <footer role="contentinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <strong>Good News Community Radio</strong><br>
+                        Box 33<br>
+                        Canelands<br>
+                        Durban<br>
+                        South Africa<br>
+                        4341
+                    </div>
+
+                    <div class="col-md-4">
+                        <strong>SMS</strong> 082 8781901<br>
+                        <strong>Call</strong> 032 5333003
+                    </div>
+
+                    <div class="col-md-4">
+                        <small>Built with <a href="http://getbootstrap.com/">bootstrap</a></small>     
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/gncr.js"></script>
+
+    </body>
+</html>
